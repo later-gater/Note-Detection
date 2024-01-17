@@ -15,14 +15,14 @@ from absl import logging
 logging.set_verbosity(logging.ERROR)
 
 train_data = object_detector.DataLoader.from_pascal_voc(
-    'Note-1/train',
-    'Note-1/train',
+    'Note-2/train',
+    'Note-2/train',
     ['note']
 )
 
 val_data = object_detector.DataLoader.from_pascal_voc(
-    'Note-1/test',
-    'Note-1/test',
+    'Note-2/test',
+    'Note-2/test',
     ['note']
 )
 
